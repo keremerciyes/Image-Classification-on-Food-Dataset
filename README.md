@@ -24,8 +24,8 @@ This project aims to evaluate and compare the performance of traditional feature
 ### Installation
 1. Clone the repository:
     ```bash
-    git clone <repository_url>
-    cd <repository_directory>
+    git clone https://github.com/keremerciyes/Image-Classification-on-Food-Dataset.git
+    cd Image-Classification-on-Food-Dataset
     ```
 
 2. Create a virtual environment:
@@ -41,15 +41,9 @@ This project aims to evaluate and compare the performance of traditional feature
 
 4. Download the iFood dataset from Kaggle:
     - Go to the [iFood 2019 FGVC6 competition page](https://www.kaggle.com/c/ifood-2019-fgvc6).
-    - Download the dataset and extract it into the `data/` directory.
+    - Download the data labels and extract it into the `data/` directory.
 
 ## Running the Project
-
-### Preprocessing Data
-1. Run the preprocessing scripts to prepare the dataset:
-    ```bash
-    python scripts/preprocess_data.py
-    ```
 
 ### Training Models
 1. Train the SIFT-BOW-SVM model:
